@@ -68,7 +68,7 @@ class Dispatcher(object):
 
     def utter_attachment(self, attachment):
         # type: (Text) -> None
-        """Send a message to the client with attachements."""
+        """Send a message to the client with attachments."""
 
         self.output_channel.send_image_url(self.sender, attachment)
 
